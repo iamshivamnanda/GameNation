@@ -1,9 +1,12 @@
 import React from 'react'
+import './homepage.scss';
+
+import { GamesList } from "../components/GamesList/GamesList";
 
 export const Homepage = () => {
     return (
         <div>
-            <h1 style={{'color':'white'}}>homepage</h1>
-        </div>
+    <GamesList />
+    </div>
     )
 }

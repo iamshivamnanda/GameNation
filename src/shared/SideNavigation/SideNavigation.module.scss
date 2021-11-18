@@ -1,0 +1,51 @@
+.SideNavigation{
+    width: 70vw;
+    max-width: 400px;
+    height: 100vh;
+    background-color: #000000;
+    z-index: 10000000;
+    position: fixed;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    padding: 3rem;
+
+    
+    span{
+        color: white;
+    }
+    span:hover{
+        color:#ccc;
+    }
+ 
+   a{
+       text-decoration: none;
+   }
+}
+
+
+.Show{
+    display:flex;
+}
+
+.Hide{
+    display: none;
+}
+
+.Icon{
+    font-size: 3.5rem;
+    vertical-align: middle;
+}
+
+.IconText{
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.Copyright{
+    position: absolute;
+    font-size: 1rem;
+    bottom: 10px;
+    align-self: center;
+   
+}

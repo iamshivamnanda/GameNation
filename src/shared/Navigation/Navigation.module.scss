@@ -1,0 +1,39 @@
+$backgroundColor : #000000;
+
+.NavBar{
+    background-color: $backgroundColor;
+    height: 10vh;
+    max-height: 300px;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span{
+        color: white;
+    }
+    span:hover{
+        color:#ccc
+    }
+    
+}
+
+.Icon{
+    font-size: 3.5rem;
+    vertical-align: middle;
+}
+
+.IconText{
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+.SideBar{
+
+}
+
+@media (min-width:600px) {
+    .SideBar{
+        display: none;
+    }
+}
