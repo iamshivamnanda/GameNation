@@ -19,5 +19,6 @@ main{
   
 }
 .logoImage{
-  height: 7em;
+  object-fit: contain;
+  width: 70vw;
 }
