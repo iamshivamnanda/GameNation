@@ -20,7 +20,7 @@ const SideNavigation = (props) => {
         <React.Fragment>
            {backdrop}
         <div className={myclass.join(' ')}> 
-        <NavLink to="/"  exact>            
+        <NavLink to="/" >            
             <span onClick={props.sidebarhandler}>
             <Games className={classes.Icon} style={{fontSize:"2.5rem"}}/> 
             <span className={classes.IconText}>GameNation</span>

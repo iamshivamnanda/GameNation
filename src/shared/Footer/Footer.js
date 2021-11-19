@@ -38,7 +38,7 @@ export const Footer = () => {
          </div>
    </div>
    <div className="bottom">
-     <p>Copyright © 2020 <a href="#0">CodingLab</a> All rights reserved</p>
+     <p>Copyright © 2021 <a href="#0">Shivam Nanda</a> All rights reserved</p>
    </div>
    </div>
       </footer>

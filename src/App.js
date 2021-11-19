@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {useState,useCallback} from 'react';
 import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
 import { AuthContext } from './shared/context/authcontent';
@@ -14,15 +15,6 @@ function App() {
   const [userId, setUserId] = useState(false);
   const [show, setSHow] = useState(false);
   const [wishListItems, setwishListItems] = useState(0);
-  const login = useCallback((userId) => {
-    setUserId(userId);
-    setIsLoggedIn(true);
-  }, []);
-
-  const logout = useCallback(() => {
-    setIsLoggedIn(false);
-  }, []);
-
   
  const sideNavigationHandler = ()=>{
     setSHow(!show);
