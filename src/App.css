@@ -21,4 +21,5 @@ main{
 .logoImage{
   object-fit: contain;
   width: 70vw;
+  max-width: 600px;
 }
